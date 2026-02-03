@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Web App
+102303945-Web-Service/uploads/
