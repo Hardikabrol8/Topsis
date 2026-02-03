@@ -9,12 +9,13 @@ import numpy as np
 from flask import Flask, render_template, request, flash, redirect, url_for
 from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
+import tempfile
 
 load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'  # Needed for flash messages
-app.config['UPLOAD_FOLDER'] = 'uploads'
+app.config['UPLOAD_FOLDER'] = os.path.join(tempfile.gettempdir(), 'topsis_uploads')
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 ALLOWED_EXTENSIONS = {'csv'}
