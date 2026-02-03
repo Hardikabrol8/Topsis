@@ -57,7 +57,6 @@ The following results were generated using the input `data.csv`.
 
 ### Web Interface
 > ![Web Interface Screenshot](web_interface.png)
-> *(Add your own screenshot of the deployed website here)*
 
 ---
 
