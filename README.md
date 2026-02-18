@@ -57,7 +57,6 @@ The following results were generated using the input `data.csv`.
 
 ### Web Interface
 > ![Web Interface Screenshot](web_interface.png)
-> *(Add your own screenshot of the deployed website here)*
 
 ---
 
@@ -84,7 +83,7 @@ topsis data.csv "1,1,1,1,1" "+,+,+,+,+" result.csv
 
 A Flask-based web application allows users to upload their data and receive results via email.
 
--   **Live Demo**: [Click Here](https://topsis-service.vercel.app/) *(Replace with your actual Vercel link)*
+-   **Live Demo**: [Click Here](https://topsis-khaki.vercel.app/)
 -   **Features**:
     -   Upload CSV files.
     -   Input weights and impacts.
