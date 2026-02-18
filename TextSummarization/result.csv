@@ -1,0 +1,6 @@
+Model,ROUGE-L,Model Size (MB),Inference Time (s),Downloads (M),Topsis Score,Rank
+t5-base,0.45,890,1.2,5.0,0.9416052089203611,1
+bart-large-cnn,0.44,1600,1.8,3.0,0.5210786265877911,3
+pegasus-xsum,0.47,2200,2.5,1.0,0.1013021965617851,5
+prophetnet-large,0.42,1500,1.9,0.5,0.24856014450851263,4
+distilbart-cnn,0.43,1000,1.0,2.0,0.5432056746150441,2

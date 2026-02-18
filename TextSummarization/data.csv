@@ -1,0 +1,6 @@
+Model,ROUGE-L,Model Size (MB),Inference Time (s),Downloads (M)
+t5-base,0.45,890,1.2,5.0
+bart-large-cnn,0.44,1600,1.8,3.0
+pegasus-xsum,0.47,2200,2.5,1.0
+prophetnet-large,0.42,1500,1.9,0.5
+distilbart-cnn,0.43,1000,1.0,2.0
